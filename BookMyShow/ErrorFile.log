@@ -1,0 +1,475 @@
+2022-03-24 13:58:30.959  INFO 11900 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-O8QUISG with PID 11900 (D:\BookMyShow\target\classes started by Dell in D:\BookMyShow)
+2022-03-24 13:58:30.962  INFO 11900 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 13:58:31.555  INFO 11900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 13:58:31.611  INFO 11900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 7 JPA repository interfaces.
+2022-03-24 13:58:32.061  INFO 11900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 13:58:32.069  INFO 11900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 13:58:32.070  INFO 11900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 13:58:32.164  INFO 11900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 13:58:32.164  INFO 11900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1136 ms
+2022-03-24 13:58:32.282  INFO 11900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 13:58:32.330  INFO 11900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 13:58:32.494  INFO 11900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 13:58:32.585  INFO 11900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 13:58:32.755  INFO 11900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 13:58:32.784  INFO 11900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 13:58:33.593  INFO 11900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 13:58:33.601  INFO 11900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 13:58:34.031  WARN 11900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 13:58:34.339  INFO 11900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 13:58:34.347  INFO 11900 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 3.728 seconds (JVM running for 4.415)
+2022-03-24 14:09:25.282  INFO 11900 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 14:09:25.302  INFO 11900 --- [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 14:09:25.303  INFO 11900 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 14:09:25.306  INFO 11900 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 14:09:28.462  INFO 1516 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-O8QUISG with PID 1516 (D:\BookMyShow\target\classes started by Dell in D:\BookMyShow)
+2022-03-24 14:09:28.466  INFO 1516 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 14:09:29.096  INFO 1516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 14:09:29.154  INFO 1516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 7 JPA repository interfaces.
+2022-03-24 14:09:29.648  INFO 1516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 14:09:29.656  INFO 1516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 14:09:29.656  INFO 1516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 14:09:29.740  INFO 1516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 14:09:29.740  INFO 1516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1226 ms
+2022-03-24 14:09:29.876  INFO 1516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 14:09:29.930  INFO 1516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 14:09:30.090  INFO 1516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 14:09:30.183  INFO 1516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 14:09:30.501  INFO 1516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 14:09:30.528  INFO 1516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 14:09:31.403  INFO 1516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 14:09:31.411  INFO 1516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 14:09:31.855  WARN 1516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 14:09:32.182  INFO 1516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 14:09:32.190  INFO 1516 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 4.088 seconds (JVM running for 4.745)
+2022-03-24 14:10:44.764  INFO 1516 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 14:10:44.765  INFO 1516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 14:10:44.766  INFO 1516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-24 14:10:44.936 ERROR 1516 --- [http-nio-8080-exec-1] com.example.controller.UserController    : error encountered while creating user
+2022-03-24 14:56:46.359  INFO 1516 --- [RMI TCP Connection(51)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 14:56:46.387  INFO 1516 --- [RMI TCP Connection(51)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 14:56:46.389  INFO 1516 --- [RMI TCP Connection(51)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 14:56:46.392  INFO 1516 --- [RMI TCP Connection(51)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 14:56:48.684  INFO 13940 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-O8QUISG with PID 13940 (D:\BookMyShow\target\classes started by Dell in D:\BookMyShow)
+2022-03-24 14:56:48.689  INFO 13940 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 14:56:49.272  INFO 13940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 14:56:49.335  INFO 13940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 7 JPA repository interfaces.
+2022-03-24 14:56:49.823  INFO 13940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 14:56:49.831  INFO 13940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 14:56:49.831  INFO 13940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 14:56:49.929  INFO 13940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 14:56:49.930  INFO 13940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2022-03-24 14:56:50.052  INFO 13940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 14:56:50.096  INFO 13940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 14:56:50.245  INFO 13940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 14:56:50.343  INFO 13940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 14:56:50.634  INFO 13940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 14:56:50.663  INFO 13940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 14:56:51.479  INFO 13940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 14:56:51.486  INFO 13940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 14:56:51.925  WARN 13940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 14:56:52.254  INFO 13940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 14:56:52.261  INFO 13940 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 3.952 seconds (JVM running for 4.737)
+2022-03-24 14:58:29.202  INFO 13940 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 14:58:29.202  INFO 13940 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 14:58:29.203  INFO 13940 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-24 14:58:29.359  INFO 13940 --- [http-nio-8080-exec-2] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 14:58:29.606  INFO 13940 --- [http-nio-8080-exec-2] com.example.controller.UserController    : ----------------------User created------------------------
+2022-03-24 19:28:41.778  INFO 12164 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 12164 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 19:28:41.788  INFO 12164 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 19:28:44.337  INFO 12164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 19:28:44.629  INFO 12164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 263 ms. Found 7 JPA repository interfaces.
+2022-03-24 19:28:46.137  INFO 12164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 19:28:46.164  INFO 12164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 19:28:46.165  INFO 12164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 19:28:46.562  INFO 12164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 19:28:46.564  INFO 12164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4511 ms
+2022-03-24 19:28:47.070  INFO 12164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 19:28:47.246  INFO 12164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 19:28:47.784  INFO 12164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 19:28:48.169  INFO 12164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 19:28:49.660 ERROR 12164 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:400) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.Driver.connect(Driver.java:259) ~[postgresql-42.3.3.jar:42.3.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.example.BookMyShowApplication.main(BookMyShowApplication.java:10) ~[classes/:na]
+
+2022-03-24 19:28:49.663  WARN 12164 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:646) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.Driver.makeConnection(Driver.java:400) ~[postgresql-42.3.3.jar:42.3.3]
+	at org.postgresql.Driver.connect(Driver.java:259) ~[postgresql-42.3.3.jar:42.3.3]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.example.BookMyShowApplication.main(BookMyShowApplication.java:10) ~[classes/:na]
+
+2022-03-24 19:28:49.672 ERROR 12164 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-03-24 19:28:49.674  WARN 12164 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-03-24 19:28:49.679  INFO 12164 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-24 19:28:49.701  INFO 12164 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-24 19:28:49.743 ERROR 12164 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.4.jar:2.6.4]
+	at com.example.BookMyShowApplication.main(BookMyShowApplication.java:10) ~[classes/:na]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	... 33 common frames omitted
+
+2022-03-24 19:30:50.878  INFO 9952 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 9952 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 19:30:50.886  INFO 9952 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 19:30:52.575  INFO 9952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 19:30:52.742  INFO 9952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 7 JPA repository interfaces.
+2022-03-24 19:30:53.971  INFO 9952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 19:30:53.993  INFO 9952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 19:30:53.996  INFO 9952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 19:30:54.220  INFO 9952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 19:30:54.221  INFO 9952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3207 ms
+2022-03-24 19:30:54.572  INFO 9952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 19:30:54.695  INFO 9952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 19:30:55.035  INFO 9952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 19:30:55.266  INFO 9952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 19:30:55.665  INFO 9952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 19:30:55.741  INFO 9952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 19:30:58.020  INFO 9952 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 19:30:58.037  INFO 9952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 19:30:59.141  WARN 9952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 19:31:00.022  INFO 9952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 19:31:00.047  INFO 9952 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 10.069 seconds (JVM running for 12.269)
+2022-03-24 19:33:24.732  INFO 9952 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 19:33:24.733  INFO 9952 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 19:33:24.735  INFO 9952 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-03-24 19:33:25.247  INFO 9952 --- [http-nio-8080-exec-2] c.example.controller.RelationController  : -----------------------Relation Created-------------------
+2022-03-24 19:33:36.650 ERROR 9952 --- [http-nio-8080-exec-3] c.e.exception.GlobalExceptionHandler     : -----------------------Request can't be completed---------------------
+2022-03-24 19:33:45.796 ERROR 9952 --- [http-nio-8080-exec-4] c.e.exception.GlobalExceptionHandler     : -----------------------Request can't be completed---------------------
+2022-03-24 19:33:55.212 ERROR 9952 --- [http-nio-8080-exec-5] c.e.exception.GlobalExceptionHandler     : -----------------------Request can't be completed---------------------
+2022-03-24 19:34:03.223 ERROR 9952 --- [http-nio-8080-exec-6] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 606
+2022-03-24 19:34:11.455  INFO 9952 --- [http-nio-8080-exec-8] c.example.controller.RelationController  : -----------------------Relation Created-------------------
+2022-03-24 19:34:18.461  INFO 9952 --- [http-nio-8080-exec-9] c.example.controller.RelationController  : -----------------------Relation Created-------------------
+2022-03-24 19:34:32.553 ERROR 9952 --- [http-nio-8080-exec-10] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 606
+2022-03-24 19:34:39.641  INFO 9952 --- [http-nio-8080-exec-2] c.example.controller.RelationController  : -----------------------Relation Created-------------------
+2022-03-24 20:11:50.710  INFO 9952 --- [RMI TCP Connection(43)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 20:11:50.953  INFO 9952 --- [RMI TCP Connection(43)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 20:11:50.997  INFO 9952 --- [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 20:11:51.018  INFO 9952 --- [RMI TCP Connection(43)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 20:11:56.853  INFO 3160 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 3160 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 20:11:56.862  INFO 3160 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 20:11:58.742  INFO 3160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 20:11:58.904  INFO 3160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 7 JPA repository interfaces.
+2022-03-24 20:12:00.107  INFO 3160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 20:12:00.131  INFO 3160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 20:12:00.132  INFO 3160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 20:12:00.581  INFO 3160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 20:12:00.581  INFO 3160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3607 ms
+2022-03-24 20:12:01.165  INFO 3160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 20:12:01.379  INFO 3160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 20:12:01.809  INFO 3160 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 20:12:02.063  INFO 3160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 20:12:02.473  INFO 3160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 20:12:02.545  INFO 3160 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 20:12:06.681  INFO 3160 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 20:12:06.697  INFO 3160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 20:12:07.983  WARN 3160 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 20:12:08.711  INFO 3160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 20:12:08.727  INFO 3160 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 12.849 seconds (JVM running for 14.998)
+2022-03-24 20:12:35.652  INFO 3160 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 20:12:35.653  INFO 3160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 20:12:35.654  INFO 3160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-24 20:12:35.713  INFO 3160 --- [http-nio-8080-exec-1] c.example.controller.RelationController  : ----------------------- List Of Relation Returned-------------------
+2022-03-24 20:13:48.430  INFO 3160 --- [http-nio-8080-exec-4] com.example.controller.SeatController    : -----------------------Seat id Created-------------------
+2022-03-24 20:13:56.114  INFO 3160 --- [http-nio-8080-exec-6] com.example.controller.SeatController    : -----------------------Seat id Created-------------------
+2022-03-24 20:14:11.334  INFO 3160 --- [http-nio-8080-exec-7] com.example.controller.SeatController    : -----------------------Seat id Created-------------------
+2022-03-24 20:14:27.009 ERROR 3160 --- [http-nio-8080-exec-8] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 608
+2022-03-24 20:14:42.670  INFO 3160 --- [http-nio-8080-exec-10] com.example.controller.SeatController    : -----------------------Seat id Created-------------------
+2022-03-24 20:15:28.264  INFO 3160 --- [http-nio-8080-exec-2] com.example.controller.SeatController    : -----------------------Seat Booked-------------------
+2022-03-24 20:15:42.870  INFO 3160 --- [http-nio-8080-exec-1] com.example.controller.SeatController    : -----------------------Seat Booked-------------------
+2022-03-24 20:16:13.561  INFO 3160 --- [http-nio-8080-exec-3] com.example.controller.SeatController    : -----------------------Seats Cancelled-------------------
+2022-03-24 20:16:26.593 ERROR 3160 --- [http-nio-8080-exec-5] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 610
+2022-03-24 20:16:37.016  INFO 3160 --- [http-nio-8080-exec-4] com.example.controller.SeatController    : -----------------------Seats Cancelled-------------------
+2022-03-24 20:29:15.019  INFO 3160 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 20:29:15.059  INFO 3160 --- [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 20:29:15.064  INFO 3160 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 20:29:15.074  INFO 3160 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 20:29:19.957  INFO 7952 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 7952 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 20:29:19.968  INFO 7952 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 20:29:21.978  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 20:29:22.152  INFO 7952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 7 JPA repository interfaces.
+2022-03-24 20:29:23.287  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 20:29:23.319  INFO 7952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 20:29:23.320  INFO 7952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 20:29:23.554  INFO 7952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 20:29:23.555  INFO 7952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3410 ms
+2022-03-24 20:29:23.891  INFO 7952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 20:29:24.042  INFO 7952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 20:29:24.478  INFO 7952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 20:29:24.708  INFO 7952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 20:29:25.106  INFO 7952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 20:29:25.174  INFO 7952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 20:29:27.639  INFO 7952 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 20:29:27.656  INFO 7952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 20:29:28.816  WARN 7952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 20:29:29.582  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 20:29:29.603  INFO 7952 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 10.69 seconds (JVM running for 12.472)
+2022-03-24 20:31:13.891  INFO 7952 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 20:31:13.927  INFO 7952 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 20:31:13.930  INFO 7952 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 20:31:13.942  INFO 7952 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 20:31:18.230  INFO 14528 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 14528 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 20:31:18.237  INFO 14528 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 20:31:19.940  INFO 14528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 20:31:20.181  INFO 14528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 205 ms. Found 7 JPA repository interfaces.
+2022-03-24 20:31:21.616  INFO 14528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 20:31:21.635  INFO 14528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 20:31:21.636  INFO 14528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 20:31:21.857  INFO 14528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 20:31:21.858  INFO 14528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3454 ms
+2022-03-24 20:31:22.187  INFO 14528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 20:31:22.327  INFO 14528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 20:31:22.802  INFO 14528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 20:31:23.108  INFO 14528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 20:31:23.496  INFO 14528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 20:31:23.555  INFO 14528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 20:31:25.614  INFO 14528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 20:31:25.629  INFO 14528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 20:31:26.693  WARN 14528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 20:31:27.504  INFO 14528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 20:31:27.524  INFO 14528 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 10.055 seconds (JVM running for 11.676)
+2022-03-24 20:42:00.709  INFO 14528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 20:42:00.710  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 20:42:00.717  INFO 14528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-03-24 20:42:01.176  WARN 14528 --- [http-nio-8080-exec-1] c.example.controller.ValidationHandler   : -----------------------------Validation Error---------------------------------------
+2022-03-24 20:42:15.418  INFO 14528 --- [http-nio-8080-exec-5] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 20:42:15.892  INFO 14528 --- [http-nio-8080-exec-5] com.example.controller.UserController    : ----------------------User created------------------------
+2022-03-24 20:42:45.316  INFO 14528 --- [http-nio-8080-exec-6] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 20:42:45.380  INFO 14528 --- [http-nio-8080-exec-6] com.example.controller.UserController    : ----------------------User created------------------------
+2022-03-24 20:42:58.890  INFO 14528 --- [http-nio-8080-exec-3] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 20:42:58.923  INFO 14528 --- [http-nio-8080-exec-3] com.example.controller.UserController    : ----------------------User created------------------------
+2022-03-24 20:43:13.044  INFO 14528 --- [http-nio-8080-exec-7] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 20:43:13.071  INFO 14528 --- [http-nio-8080-exec-7] com.example.controller.UserController    : ----------------------User created------------------------
+2022-03-24 20:45:14.253  INFO 14528 --- [http-nio-8080-exec-10] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 20:45:14.280 ERROR 14528 --- [http-nio-8080-exec-10] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 610
+2022-03-24 20:45:28.795  INFO 14528 --- [http-nio-8080-exec-2] com.example.controller.UserController    : -----------------------User being created-------------------
+2022-03-24 20:45:28.816  INFO 14528 --- [http-nio-8080-exec-2] com.example.controller.UserController    : ----------------------User created------------------------
+2022-03-24 20:45:56.553 ERROR 14528 --- [http-nio-8080-exec-4] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 613
+2022-03-24 20:46:05.718 ERROR 14528 --- [http-nio-8080-exec-6] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 613
+2022-03-24 20:46:17.120  INFO 14528 --- [http-nio-8080-exec-3] com.example.controller.UserController    : -----------------------User list printed-------------------
+2022-03-24 20:46:49.061 ERROR 14528 --- [http-nio-8080-exec-8] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 613
+2022-03-24 20:46:59.204 ERROR 14528 --- [http-nio-8080-exec-9] c.e.exception.GlobalExceptionHandler     : EmptyInputException : null 613
+2022-03-24 20:49:18.063 ERROR 14528 --- [http-nio-8080-exec-1] c.e.exception.GlobalExceptionHandler     : -----------------------Request can't be completed---------------------
+2022-03-24 20:49:24.619 ERROR 14528 --- [http-nio-8080-exec-4] c.e.exception.GlobalExceptionHandler     : -----------------------Request can't be completed---------------------
+2022-03-24 20:49:48.514  INFO 14528 --- [http-nio-8080-exec-5] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 20:49:55.956  INFO 14528 --- [http-nio-8080-exec-6] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 20:50:01.282  INFO 14528 --- [http-nio-8080-exec-7] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 20:50:05.472  INFO 14528 --- [http-nio-8080-exec-3] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 20:50:10.571  INFO 14528 --- [http-nio-8080-exec-8] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 20:50:31.852  INFO 14528 --- [http-nio-8080-exec-10] com.example.controller.UserController    : -----------------------movie list Printed for User-------------------
+2022-03-24 20:50:55.592  INFO 14528 --- [http-nio-8080-exec-9] com.example.controller.UserController    : -----------------------All Shows Printed-------------------
+2022-03-24 20:52:16.300  INFO 14528 --- [http-nio-8080-exec-4] com.example.controller.UserController    : -----------------------Check out for seats-------------------
+2022-03-24 20:53:26.358  INFO 14528 --- [http-nio-8080-exec-6] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
+2022-03-24 20:53:54.236  INFO 14528 --- [http-nio-8080-exec-7] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
+2022-03-24 20:54:05.589  INFO 14528 --- [http-nio-8080-exec-3] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
+2022-03-24 20:54:18.636  INFO 14528 --- [http-nio-8080-exec-8] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
+2022-03-24 20:54:38.087  INFO 14528 --- [http-nio-8080-exec-10] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
+2022-03-24 21:17:23.424  INFO 14528 --- [RMI TCP Connection(48)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 21:17:23.630  INFO 14528 --- [RMI TCP Connection(48)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 21:17:23.665  INFO 14528 --- [RMI TCP Connection(48)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 21:17:23.687  INFO 14528 --- [RMI TCP Connection(48)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 21:17:28.411  INFO 10388 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 10388 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 21:17:28.422  INFO 10388 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 21:17:30.205  INFO 10388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 21:17:30.434  INFO 10388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 209 ms. Found 7 JPA repository interfaces.
+2022-03-24 21:17:31.750  INFO 10388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 21:17:31.784  INFO 10388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 21:17:31.785  INFO 10388 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 21:17:32.027  INFO 10388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 21:17:32.028  INFO 10388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3469 ms
+2022-03-24 21:17:32.435  INFO 10388 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 21:17:32.597  INFO 10388 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 21:17:33.075  INFO 10388 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 21:17:33.374  INFO 10388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 21:17:33.948  INFO 10388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 21:17:34.062  INFO 10388 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 21:17:36.539  INFO 10388 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 21:17:36.560  INFO 10388 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 21:17:37.769  WARN 10388 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 21:17:38.672  INFO 10388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 21:17:38.697  INFO 10388 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 11.217 seconds (JVM running for 12.9)
+2022-03-24 21:18:21.354  INFO 10388 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 21:18:21.355  INFO 10388 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 21:18:21.357  INFO 10388 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-03-24 21:18:22.043  WARN 10388 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
+2022-03-24 21:18:22.054  INFO 10388 --- [http-nio-8080-exec-2] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 21:19:12.247  INFO 10388 --- [http-nio-8080-exec-3] com.example.controller.UserController    : -----------------------TICKET CANCELLED-------------------
+2022-03-24 21:20:55.267  INFO 10388 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-24 21:20:55.310  INFO 10388 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 21:20:55.313  INFO 10388 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-24 21:20:55.334  INFO 10388 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-24 21:20:59.528  INFO 13148 --- [main] com.example.BookMyShowApplication        : Starting BookMyShowApplication using Java 17.0.1 on DESKTOP-E7GCF4N with PID 13148 (C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow\target\classes started by hp in C:\Users\hp\Downloads\BookMyShowWithoutImplementation\BookMyShow)
+2022-03-24 21:20:59.539  INFO 13148 --- [main] com.example.BookMyShowApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-03-24 21:21:01.117  INFO 13148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-24 21:21:01.296  INFO 13148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 7 JPA repository interfaces.
+2022-03-24 21:21:02.489  INFO 13148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-24 21:21:02.505  INFO 13148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-24 21:21:02.505  INFO 13148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 21:21:02.726  INFO 13148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-24 21:21:02.727  INFO 13148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3041 ms
+2022-03-24 21:21:03.104  INFO 13148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-24 21:21:03.211  INFO 13148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-24 21:21:03.637  INFO 13148 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-24 21:21:03.914  INFO 13148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-24 21:21:04.338  INFO 13148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-24 21:21:04.416  INFO 13148 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-03-24 21:21:06.631  INFO 13148 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-24 21:21:06.647  INFO 13148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-24 21:21:08.031  WARN 13148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-24 21:21:09.055  INFO 13148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 21:21:09.072  INFO 13148 --- [main] com.example.BookMyShowApplication        : Started BookMyShowApplication in 10.427 seconds (JVM running for 12.056)
+2022-03-24 21:21:45.809  INFO 13148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-24 21:21:45.809  INFO 13148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-24 21:21:45.812  INFO 13148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-03-24 21:21:45.872  WARN 13148 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2022-03-24 21:21:54.093  INFO 13148 --- [http-nio-8080-exec-3] com.example.controller.UserController    : -----------------------User login successfull-------------------
+2022-03-24 21:24:11.538  WARN 13148 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : Request method 'PUT' not supported
+2022-03-24 21:24:30.024  INFO 13148 --- [http-nio-8080-exec-7] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
+2022-03-24 21:25:16.672  INFO 13148 --- [http-nio-8080-exec-8] com.example.controller.UserController    : -----------------------TICKET CREATED-------------------
